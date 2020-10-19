@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.65080994, g: 0.666729, b: 0.7075472, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.05
@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.13296545, g: 0.19145328, b: 0.33962262, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 0ffaa0b7117ba8c47a9d05ae701d4b4d, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 144c4f74e86e6824c8b578b3b8e2a72c, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -377,11 +377,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55a5a4ddf5e14e445bc29d504e77b0a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cloudHeight: 100
-  cloudScale: 0.15
-  speed: {x: 1, y: 1, z: 0}
-  samples: 16
-  coverage: 0.522
+  cloudHeight: 235.4
+  cloudScale: 0.08
+  speed: {x: 16, y: 16, z: 16}
+  samples: 6
+  cloudStepSize: 16
+  coverage: 0.392
   quad: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
   camera: {fileID: 1687258584}
   sun: {fileID: 2138677392}
@@ -757,7 +758,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 2555
+  far clip plane: 100000
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -913,7 +914,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 2
   m_Range: 10
   m_SpotAngle: 30
@@ -970,10 +971,10 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2138677391}
-  m_LocalRotation: {x: 0.70105743, y: 0.37992823, z: -0.092295974, w: 0.59636784}
+  m_LocalRotation: {x: -0.4880366, y: 0.07826862, z: 0.5116838, w: -0.70276177}
   m_LocalPosition: {x: 0.24, y: 3, z: 4.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 65, y: 130, z: 90}
+  m_LocalEulerAnglesHint: {x: -217.29, y: 130, z: 90}
