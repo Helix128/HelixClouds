@@ -12,3 +12,6 @@
 -Weird blending on high sample counts.
 -Sometimes clouds wont render in scene view, until you change a variable.
 
+# Todo
+
+- Remove the requirement to manually install NoisyNodes
